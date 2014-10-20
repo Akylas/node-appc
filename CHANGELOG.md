@@ -1,3 +1,20 @@
+0.2.19 (10/13/2014)
+-------------------
+ * Fixed bug in timodule with the handling of supported platforms [TIMOB-17822]
+
+0.2.18 (10/6/2014)
+-------------------
+ * Refactored timodule library to address incorrect module caching, support for bypassing cache, and improved API [TIMOB-17822]
+
+0.2.17 (9/16/2014)
+-------------------
+ * Fixed timodule logic to find latest *valid* module instead of latest module [TIMOB-17545]
+
+0.2.16 (8/22/2014)
+-------------------
+ * Fixed bug with parseMin() and parseMax() in version module
+ * Updated NPM dependencies
+
 0.2.15 (7/15/2014)
 -------------------
  * Added support to async lib for zero argument callbacks which will be run sync
