@@ -1,3 +1,15 @@
+0.2.22 (11/17/2014)
+------------------
+ * Fixed bug with the parent process not properly detaching the child analytics process [TIMOB-18046]
+
+0.2.21 (11/12/2014)
+-------------------
+ * Fixed bug where duplicate paths were searched for Titanium SDKs due to not fully resolving the real path of the search path.
+
+0.2.20 (11/5/2014)
+-------------------
+ * Fixed bug with how discovered modules are combined from multiple install locations [TIMOB-17872]
+
 0.2.19 (10/13/2014)
 -------------------
  * Fixed bug in timodule with the handling of supported platforms [TIMOB-17822]
